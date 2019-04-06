@@ -38,17 +38,9 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
   enable: false
-  line_number: false
-  auto_detect: false
-  tab_replace:
-
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'default'
-  line_number: false    # default false
-  custom_css:
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -96,7 +88,14 @@ markdown_it_plus:
     linkify: true
     typographer:
     quotes: “”‘’
-    pre_class: highlight
+    pre_class: prism_plugin
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: true    # default false
+  custom_css:
+
 
 
 nofollow:
@@ -119,4 +118,4 @@ robotstxt:
 encrypt:
     enable: false
 
-all_minifier: true
+all_minifier: false
