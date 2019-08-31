@@ -27,6 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - _posts/README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -93,7 +94,7 @@ markdown_it_plus:
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: true    # default false
+  line_number: false    # default false
   custom_css:
 
 
