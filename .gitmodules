@@ -1,6 +1,0 @@
-[submodule "themes/hexo-theme-matery"]
-	path = themes/hexo-theme-matery
-	url = git@github.com:imdigo/hexo-theme-matery.git
-[submodule "source/post"]
-	path = source/post
-	url = git@github.com:imdigo/blogPost.git
